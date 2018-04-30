@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
 
-class node(){
+struct node(){
   int data;
+  data *next;
 }
 
-class tnode(){
+struct tnode(){
   int databaru;
+  databaru *head;
 }
+
+void main(){
+  
 
 
 
